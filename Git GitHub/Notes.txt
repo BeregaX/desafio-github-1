@@ -1,0 +1,25 @@
+Download Git: https://git-scm.com/download/win
+
+Git=É um sistema de controle de versão de arquivos.
+
+GitHub=É uma plataforma onde você pode armazenar seus projetos integrando-os juntamente com o git.
+
+GitBash= É um terminal extendido para otimizar o uso do git.
+
+Estados do Git:
+ - Modificado(modified)
+ - Preparado(staged/index)
+ - Consolidado(commited)
+
+Comandos Git:
+
+ - git init :Cria um novo repositório do Git.
+ - git clone: Serve para selecionar um repositório existente e criar um clone ou cópia do repositório de destino.
+ - git status: Verifica o estado dos seus arquivos
+ - git add <nomeDoArquivo>: envia seu arquivo especificado para o Stage
+ - git add .( ou add *): envia todos os arquivos para o Stage
+ - git commit -m “tituloDoCommit: envia o que está no Stage para o HEAD
+ - git remote add origin urlDoRepositorio: adiciona e indica a URL do repositório remoto em que os arquivos serão mantidos
+ - git push origin master: envia os arquivos para o repositório remoto que você especificou através da URL do comando acima
+ - git remote (-v):Exibir os repositórios remotos.
+ - git help: Lista opções de ajuda.
